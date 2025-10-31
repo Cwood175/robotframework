@@ -1,16 +1,6 @@
 name: Unit tests
 
-on:
-  push:
-    branches:
-      - main
-      - master
-      - v*-maintenance
-    paths:
-      - '.github/workflows/**'
-      - 'src/**'
-      - 'utest/**'
-      - '!**/*.rst'
+on: push
 
 
 jobs:
